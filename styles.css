@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8; /* Light background for kitchen feel */
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.login-container, .menu-container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff; /* White like pizza dough */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 2px solid #b22222; /* Red for tomato sauce */
+}
+
+h1, h2 {
+    color: #b22222; /* Red Italian theme */
+}
+
+input[type="text"], button {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #228b22; /* Green for basil */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.pizza-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pizza-item {
+    margin: 15px;
+    text-align: center;
+    width: 200px;
+}
+
+.pizza-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Round like pizza */
+    border: 3px solid #228b22; /* Green border */
+}
+
+.summary {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f0fff0; /* Light green */
+    border: 1px solid #228b22;
+    border-radius: 5px;
+}

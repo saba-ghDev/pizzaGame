@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pizza Maker Game - Neapolitan Style</title>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Welcome to Neapolitan Pizza Maker Game!</h1>
+        <p>Login to start creating your Italian pizza masterpieces.</p>
+        <form id="login-form">
+            <input type="text" id="username" placeholder="Enter your name" required>
+            <button type="submit">Start Game</button>
+        </form>
+    </div>
+
+    <div id="menu-page" class="menu-container" style="display: none;">
+        <h2>Select Your Pizza to Make</h2>
+        <div class="pizza-menu">
+            <div class="pizza-item">
+                <img src="images/pepperoni.png" alt="Pepperoni Pizza">
+                <p>Pepperoni Pizza</p>
+                <button onclick="makePizza('Pepperoni')">Make It!</button>
+            </div>
+            <div class="pizza-item">
+                <img src="images/steak-garlic.png" alt="Steak Garlic Pizza">
+                <p>Steak Garlic Pizza</p>
+                <button onclick="makePizza('Steak Garlic')">Make It!</button>
+            </div>
+            <div class="pizza-item">
+                <img src="images/turkey-pesto.png" alt="Turkey Pesto Pizza">
+                <p>Turkey Pesto Pizza</p>
+                <button onclick="makePizza('Turkey Pesto')">Make It!</button>
+            </div>
+            <div class="pizza-item">
+                <img src="images/margarita.png" alt="Margarita Pizza">
+                <p>Margarita Pizza</p>
+                <button onclick="makePizza('Margarita')">Make It!</button>
+            </div>
+            <div class="pizza-item">
+                <img src="images/bacon.png" alt="Bacon Pizza">
+                <p>Bacon Pizza</p>
+                <button onclick="makePizza('Bacon')">Make It!</button>
+            </div>
+            <div class="pizza-item">
+                <img src="images/roast-beef.png" alt="Roast Beef Pizza">
+                <p>Roast Beef Pizza</p>
+                <button onclick="makePizza('Roast Beef')">Make It!</button>
+            </div>
+        </div>
+        <div id="pizza-summary" class="summary"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
